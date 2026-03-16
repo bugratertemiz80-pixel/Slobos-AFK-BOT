@@ -1,13 +1,3 @@
-const http = require('http');
-http.createServer((req, res) => {
-  res.write("Bot ayakta!");
-  res.end();
-}).listen(process.env.PORT || 10000);
-
-// Her 5 dakikada bir kendini dürtüyor
-setInterval(() => {
-  console.log("Render uyuma, buradayım!");
-}, 300000);
 const mineflayer = require('mineflayer');
 const { Movements, pathfinder, goals } = require('mineflayer-pathfinder');
 const { GoalBlock } = goals;
