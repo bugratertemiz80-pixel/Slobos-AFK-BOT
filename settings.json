@@ -30,9 +30,8 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "/register bot123 bot123",
+        "/login bot123"
       ]
     },
     "chat-log": true,
