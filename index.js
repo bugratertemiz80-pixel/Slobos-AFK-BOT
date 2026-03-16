@@ -9,7 +9,7 @@ const http = require('http');
 // EXPRESS SERVER - Keep Render/Aternos alive
 // ============================================================
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 
 // Bot state tracking
 let botState = {
