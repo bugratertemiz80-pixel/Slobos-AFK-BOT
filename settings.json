@@ -44,22 +44,22 @@
       "max-interval": 60
     }
   },
-  "movement": {
+"movement": {
+  "enabled": true,
+  "circle-walk": {
     "enabled": true,
-    "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
+    "radius": 2,
+    "speed": 1500
   },
+  "look-around": {
+    "enabled": true,
+    "interval": 2000
+  },
+  "random-jump": {
+    "enabled": true,
+    "interval": 15000
+  }
+}
   "modules": {
     "avoidMobs": true,
     "combat": true,
